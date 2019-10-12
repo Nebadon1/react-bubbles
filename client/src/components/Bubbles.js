@@ -11,10 +11,10 @@ const Bubbles = ({ colors }) => {
     }));
     setBubbleData(generateBubbleData);
   }, [colors]);
-
+ 
   return (
     <div className="bubble-wrap">
-      <p>bubbles</p>
+      <p>Bubbles</p>
       <Svg width={400} height={400}>
         <Pack
           data={{
@@ -46,8 +46,10 @@ const Bubbles = ({ colors }) => {
           }
         </Pack>
       </Svg>
-    </div>
-  );
+    
+</div>
+
+);
 };
 
 export default Bubbles;
